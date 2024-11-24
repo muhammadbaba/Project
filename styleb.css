@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 940px;
+    margin: auto;
+}
+
+.top-bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.ul {
+    width: 400px;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    right: -150px;
+    
+
+}
+
+figure img {
+    width: 720px;
+    height: 310px;
+    border-radius: 10px;
+}
+header {
+    margin-bottom: 30px;
+    background: url(/Img/derick-mckinney-GhX9SH0bNcc-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-ul {
+    width: 250px;
+}
+.pl {
+    margin-left: 150px;
+}
+.pl8 {
+    margin-left: 142px;
+}
+.pl7 {
+    margin-left: 116px;
+}
+.pl1 {
+    margin-left: 140px;
+}
+.craft,
+.design,
+.handmade,
+.interior,
+.wood {
+    display: flex;
+}
+
+.layout-2 {
+    display: flex;
+}
+.layout-2 p {
+    width: 720px;
+}
+
+.img-style {
+    display: flex;
+    align-items: center;
+}
+.img-style p {
+    width: 150px;
+}
+
+.img-style img {
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 80px;
+    border-radius: 5px;
+}
+.no-layout p {
+    width: 720px;
+}
+.next {
+    width: 720px;
+    display: flex;
+    position: relative;
+    right: -530px;
+}
+.nxt {
+    margin: 30px 20px 0 0;
+    padding: 5px 10px;
+    font-size: small;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.layout-3 {
+    padding: 30px;
+    display: flex;
+    background-color: rgb(238, 234, 243);
+}
+
+.content-3, .content-4 {
+    margin-right: 20px;
+}
+
+.layout-4 {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.layout-4 .lp {
+    margin-top: 70px;
+}
+
+.layout-4 ul li {
+    margin-top: 15px;
+    list-style: none;    
+}
+.layout-4 ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.layout-4 form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.layout-4 form label {
+    display: none;
+}
+
+.layout-4 form input {
+    border: none;
+    border-bottom: 2px solid lightgray;
+}
+input[type=email] {
+    width: 200px;
+    margin-right: 10px;
+}
+input[type=submit] {
+    background-color: #fff;
+}
+
+footer {
+    padding-top: 20px;
+    border-top: 2px solid lightgrey;
+}
